@@ -1,1 +1,1 @@
-# manu-hover-effect
+# menu-hover-effect
