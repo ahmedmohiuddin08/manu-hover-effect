@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe8df;
+}
+
+h1,h2{
+  margin: 0;
+}
+/* navigation division starts*/
+
+
+nav{
+  float: right;
+  margin-right: 100px;
+}
+nav ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  list-style: none;
+  line-height: 70px;
+  display: inline-block;
+  position: relative;
+  margin: 0 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 0;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: white;
+}
+/*----important lesson----*/
+nav ul li a:hover{
+  color: #ffa372;
+  transition: 2s;
+  transition-duration: 700ms;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #ffa372;
+
+  position: absolute;
+  top: 0;
+  width: 0;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+/*----important lesson----*/
+/* navigation division ends*/
+/* banner part starts here*/
+.top-container{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/corporate.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.tag-one {
+  margin: auto;
+  font-size: 150%;
+  font-family: 'Playfair Display';
+  padding-top: 100px;
+    color: #f7f7f7;
+}
+
+.top-container-one{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  text-align: center;
+}
+
+.top-container-one-p1{
+  font-size: 140%;
+  font-family: 'Baloo Bhaina 2';
+  line-height: 1.5;
+  color: #f7f7f7;
+  margin: 5px 100px;
+}
+
+
+.subscribe-one{
+  margin-top: 35px;
+  background-color: #ffa372;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 2px solid #ffa372;
+  color: #f7f7f7;
+  transition: 1s ease;
+}
+
+.subscribe-one:hover{
+
+  background-color: inherit;
+  color: #ffa372;
+  transition: all ease-in-out 500ms;
+  transition-duration: 250ms;
+  cursor: auto;
+}
+/* bannaer part ends here*/
